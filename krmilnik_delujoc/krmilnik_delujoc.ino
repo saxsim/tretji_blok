@@ -20,6 +20,7 @@ struct SEND_DATA_STRUCTURE{
 RECEIVE_DATA_STRUCTURE rxdata;
 SEND_DATA_STRUCTURE txdata;
 
+
 const int crpalka = 2;
 const int ventil = 3;
 const int grelec = 4;
@@ -28,6 +29,7 @@ const int grelec = 4;
 const int tipka = 13;
 
 
+boolean deluje = false
 int stevec = 0;
 int stanje_tipke = 0;
 int kljucavnica = LOW;
